@@ -14,8 +14,9 @@ public class R14 {
         int testValue = 4894;
         log.info("Test value: {}", testValue);
         log.info("isEven: {} ", isEven(testValue));
-        log.info("isEvenByBinaryCheck: {} ", isEvenByBinaryCheck(testValue));
+        log.info("isEvenByBinaryCheck: {} ", isEvenByBinaryStringCheck(testValue));
         log.info("isEvenRecursive: {} ", isEvenRecursive(testValue));
+        log.info("isEvenRecursive: {} ", isEventByBitwiseCheck(testValue));
     }
 
     // this can throw StackoverflowException
@@ -38,9 +39,14 @@ public class R14 {
         return false;
     }
 
-    static boolean isEvenByBinaryCheck(int i) {
+    static boolean isEvenByBinaryStringCheck(int i) {
         String binaryString = Integer.toBinaryString(i);
         log.info("binary string of {} is : {} ", i, binaryString);
         return binaryString.charAt(binaryString.length() - 1) == '0';
+    }
+
+
+    public static boolean isEventByBitwiseCheck(long n) {
+        return (n & 1) == 0;
     }
 }
