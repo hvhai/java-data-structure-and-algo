@@ -15,6 +15,7 @@ public class R14 {
         log.info("Test value: {}", testValue);
         log.info("isEven: {} ", isEven(testValue));
         log.info("isEvenByBinaryCheck: {} ", isEvenByBinaryCheck(testValue));
+        log.info("isEvenRecursive: {} ", isEvenRecursive(testValue));
     }
 
     // this can throw StackoverflowException
