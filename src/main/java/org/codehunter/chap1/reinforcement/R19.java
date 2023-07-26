@@ -1,4 +1,4 @@
-package org.codehunter.chap1;
+package org.codehunter.chap1.reinforcement;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -1,4 +1,4 @@
-package org.codehunter.chap1;
+package org.codehunter.chap1.reinforcement;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.codehunter.chap1;
+package org.codehunter.chap1.reinforcement;
 
 public class CreditCard {
     private String customer;

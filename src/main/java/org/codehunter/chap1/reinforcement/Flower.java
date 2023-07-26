@@ -1,4 +1,4 @@
-package org.codehunter.chap1;
+package org.codehunter.chap1.reinforcement;
 
 public class Flower {
     private String name;
