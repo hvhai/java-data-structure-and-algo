@@ -43,6 +43,7 @@ public class CreditCard {
      * @param amount the amount of payment made
      */
     public void makePayment(double amount) { // make a payment
+        if (amount < 0) return;
         balance -=amount;
     }
 
